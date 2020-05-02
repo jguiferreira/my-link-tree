@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links | jguilher.me </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
+
 <body>
-    
+    <div id="container">
+        <div id="header">
+            <div class="row">
+                <img src="assets/logo.svg" alt="Logotipo jguilher.me">
+            </div>
+            <div class="row">
+                <small>Desenvolvimento e Design</small>
+            </div>
+            <div class="row">
+                <h1>Meus Links</h1>
+            </div>
+        </div>
+        <div id="links">
+            <div class="social-button github">
+                <button onmouseover="mudaCor(this)" onmouseout="corNormal(this)" ><i data-feather="github" class="social-icon"></i> GitHub <i data-feather="chevrons-right" class="chevrons-icon"></i></button>
+            </div>
+            <div class="social-button">
+                <button >GitHub</button>
+            </div>
+            <div class="social-button">
+                <button>GitHub</button>
+            </div>
+            <div class="social-button">
+                <button>GitHub</button>
+            </div>
+            <div class="social-button">
+                <button>GitHub</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function mudaCor(x) {
+            x.style.background= "#24292E";
+            x.style.color = "#fff";
+        }
+
+        function corNormal(x) {
+            x.style.background= "#fff";
+            x.style.color = "#24292E";
+            
+            
+        }
+
+
+        feather.replace()
+    </script>
 </body>
+
 </html>
