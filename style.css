@@ -69,11 +69,7 @@ button svg.social-icon.feather{
 button svg.chevrons-icon.feather{
     position: absolute;
     right: 7px;
-    transition: .2s;
-}
-button svg.chevrons-icon.feather:hover{
-    
-}
+ }
 
 
 div.social-button.github button{
