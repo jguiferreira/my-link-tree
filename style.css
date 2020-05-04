@@ -78,6 +78,25 @@ button svg.chevrons-icon.feather:hover{
 
 div.social-button.github button{
     border: 1px solid #24292E;
+    color: #24292E;
 }
 
+div.social-button.instagram button{
+    border: 1px solid #C13584;
+    color: #C13584;
+}
 
+div.social-button.linkedin button{
+    border: 1px solid #2867B2;
+    color: #2867B2;
+}
+
+div.social-button.twitter button{
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2;
+}
+
+div.social-button.blog button{
+    border: 1px solid #66BC50;
+    color: #66BC50;
+}

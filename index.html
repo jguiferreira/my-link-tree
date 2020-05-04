@@ -24,33 +24,86 @@
         </div>
         <div id="links">
             <div class="social-button github">
-                <button onmouseover="mudaCor(this)" onmouseout="corNormal(this)" ><i data-feather="github" class="social-icon"></i> GitHub <i data-feather="chevrons-right" class="chevrons-icon"></i></button>
+                <button onclick="window.location.href='https://github.com/jguiferreira'" onmouseover="mudaCorGitHub(this)" onmouseout="corNormalGitHub(this)" ><i data-feather="github" class="social-icon"></i> GitHub <i data-feather="chevrons-right" class="chevrons-icon"></i></button>
             </div>
-            <div class="social-button">
-                <button >GitHub</button>
+            <div class="social-button instagram">
+                <button onclick="window.location.href='https://instagram.com/jguilher.me'"  onmouseover="mudaCorInstagram(this)" onmouseout="corNormalInstagram(this)" ><i data-feather="instagram" class="social-icon"></i> Instagram <i data-feather="chevrons-right" class="chevrons-icon"></i></button>
             </div>
-            <div class="social-button">
-                <button>GitHub</button>
+            <div class="social-button linkedin">
+                <button onclick="window.location.href='https://www.linkedin.com/in/jguiferreira/'" onmouseover="mudaCorLinkedIn(this)" onmouseout="corNormalLinkedIn(this)" ><i data-feather="linkedin" class="social-icon"></i> LinkedIn <i data-feather="chevrons-right" class="chevrons-icon"></i></button>
             </div>
-            <div class="social-button">
-                <button>GitHub</button>
+            <div class="social-button twitter">
+                <button onclick="window.location.href='https://twitter.com/jguilhermeweb'" onmouseover="mudaCorTwitter(this)" onmouseout="corNormalTwitter(this)" ><i data-feather="twitter" class="social-icon"></i> Twitter <i data-feather="chevrons-right" class="chevrons-icon"></i></button>
             </div>
-            <div class="social-button">
-                <button>GitHub</button>
+            <div class="social-button blog">
+                <button onclick="window.location.href='https://jguilher.me/blog'" onmouseover="mudaCorBlog(this)" onmouseout="corNormalBlog(this)" ><i data-feather="file-text" class="social-icon"></i> Blog <i data-feather="chevrons-right" class="chevrons-icon"></i></button>
             </div>
         </div>
     </div>
     <script>
-        function mudaCor(x) {
+        function mudaCorGitHub(x) {
             x.style.background= "#24292E";
             x.style.color = "#fff";
+            x.style.borderRadius = "3px 10px 10px 3px";
+            x.style.transition = "0.3s";
         }
 
-        function corNormal(x) {
+        function corNormalGitHub(x) {
             x.style.background= "#fff";
             x.style.color = "#24292E";
-            
-            
+            x.style.borderRadius = "3px";           
+        }
+
+        function mudaCorInstagram(x) {
+            x.style.background= "#C13584";
+            x.style.color = "#fff";
+            x.style.borderRadius = "3px 10px 10px 3px";
+            x.style.transition = "0.3s";
+        }
+
+        function corNormalInstagram(x) {
+            x.style.background= "#fff";
+            x.style.color = "#C13584";
+            x.style.borderRadius = "3px";            
+        }
+
+        function mudaCorLinkedIn(x) {
+            x.style.background= "#2867B2";
+            x.style.color = "#fff";
+            x.style.borderRadius = "3px 10px 10px 3px";
+            x.style.transition = "0.3s";
+        }
+
+        function corNormalLinkedIn(x) {
+            x.style.background= "#fff";
+            x.style.color = "#2867B2";
+            x.style.borderRadius = "3px";            
+        }
+
+        function mudaCorTwitter(x) {
+            x.style.background= "#1DA1F2";
+            x.style.color = "#fff";
+            x.style.borderRadius = "3px 10px 10px 3px";
+            x.style.transition = "0.3s";
+        }
+
+        function corNormalTwitter(x) {
+            x.style.background= "#fff";
+            x.style.color = "#1DA1F2";
+            x.style.borderRadius = "3px";            
+        }
+
+        function mudaCorBlog(x) { 
+            x.style.background= "#66BC50";
+            x.style.color = "#fff";
+            x.style.borderRadius = "3px 10px 10px 3px";
+            x.style.transition = "0.3s";
+        }
+
+        function corNormalBlog(x) {
+            x.style.background= "#fff";
+            x.style.color = "#66BC50";
+            x.style.borderRadius = "3px";        
         }
 
 
